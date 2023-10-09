@@ -1,0 +1,75 @@
+.loader {
+    display: flex;
+    margin: 45vh auto;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    margin: 1rem;
+    width: 45%;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(69, 69, 69);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(69, 69, 69);
+    box-shadow: 10px 10px 5px 0px rgb(69, 69, 69);
+    min-height: 40rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.abilityDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.abilityIcon {
+    background-color: black;
+    border-radius: 100px;
+}
+
+.ability {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.skills {
+    font-size: 15px;
+    font-weight: bold;
+}
